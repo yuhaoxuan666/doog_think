@@ -1,0 +1,563 @@
+{
+  "mod_elements": [
+    {
+      "name": "GuRenDeZhiHuiWuPin",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gu_ren_de_zhi_hui_wu_pin"
+    },
+    {
+      "name": "SiXiang",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "si_xiang"
+    },
+    {
+      "name": "SiXiangJingHua",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "si_xiang_jing_hua"
+    },
+    {
+      "name": "MingXiang",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ming_xiang"
+    },
+    {
+      "name": "GETmx",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ge_tmx"
+    },
+    {
+      "name": "Sx",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sx"
+    },
+    {
+      "name": "Sx2",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sx_2"
+    },
+    {
+      "name": "Sx3",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sx_3"
+    },
+    {
+      "name": "Sx4",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sx_4"
+    },
+    {
+      "name": "Sxjh",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxjh"
+    },
+    {
+      "name": "ChuJiSiXiangHao",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chu_ji_si_xiang_hao"
+    },
+    {
+      "name": "FangCao",
+      "type": "plant",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fang_cao"
+    },
+    {
+      "name": "Zh",
+      "type": "gamerule",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zh",
+      "metadata": {
+        "type": "number"
+      }
+    },
+    {
+      "name": "Hhc",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hhc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MMingXiang",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_ming_xiang"
+    },
+    {
+      "name": "XxAnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xx_an_xia_an_jian_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xx",
+      "type": "keybind",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xx"
+    },
+    {
+      "name": "FIRST",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first"
+    },
+    {
+      "name": "YuanZi",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yuan_zi"
+    },
+    {
+      "name": "Yyzk",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yyzk"
+    },
+    {
+      "name": "Yyzkhc",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yyzkhc"
+    },
+    {
+      "name": "Hhcfirst",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hhcfirst"
+    },
+    {
+      "name": "ZZhongZi",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_zhong_zi"
+    },
+    {
+      "name": "Yyz",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yyz"
+    },
+    {
+      "name": "WWeiLi",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_wei_li"
+    },
+    {
+      "name": "Yyyz",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yyyz"
+    },
+    {
+      "name": "Yyyyyyyz",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yyyyyyyz"
+    },
+    {
+      "name": "XIE",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xie"
+    },
+    {
+      "name": "Hhcxie",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hhcxie"
+    },
+    {
+      "name": "Gg",
+      "type": "particle",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gg"
+    },
+    {
+      "name": "Ggong",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ggong",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Hhcgzhf",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hhcgzhf"
+    },
+    {
+      "name": "QqfZaiXiaoGuoChiXuShiMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qqf_zai_xiao_guo_chi_xu_shi_mei_ke_fa_sheng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Qqf",
+      "type": "potioneffect",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qqf"
+    },
+    {
+      "name": "QQiFu",
+      "type": "potion",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_qi_fu"
+    },
+    {
+      "name": "Hhcqf",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hhcqf"
+    },
+    {
+      "name": "Yz",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yz"
+    },
+    {
+      "name": "YzOre",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yz_ore"
+    },
+    {
+      "name": "YzBlock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yz_block"
+    },
+    {
+      "name": "YzOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yz_ore_block_recipe"
+    },
+    {
+      "name": "YzBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yz_block_ore_recipe"
+    },
+    {
+      "name": "YzOreSmelting",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yz_ore_smelting"
+    },
+    {
+      "name": "¸£µÏPickaxe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_pickaxe"
+    },
+    {
+      "name": "¸£µÏAxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_axe"
+    },
+    {
+      "name": "¸£µÏSword",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_sword"
+    },
+    {
+      "name": "¸£µÏShovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_shovel"
+    },
+    {
+      "name": "¸£µÏHoe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_hoe"
+    },
+    {
+      "name": "¸£µÏPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_pickaxe_recipe"
+    },
+    {
+      "name": "¸£µÏAxeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_axe_recipe"
+    },
+    {
+      "name": "¸£µÏSwordRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_sword_recipe"
+    },
+    {
+      "name": "¸£µÏShovelRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_shovel_recipe"
+    },
+    {
+      "name": "¸£µÏHoeRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_hoe_recipe"
+    },
+    {
+      "name": "¸£µÏArmor",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "¸£µÏArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_armor_helmet_recipe"
+    },
+    {
+      "name": "¸£µÏArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_armor_body_recipe"
+    },
+    {
+      "name": "¸£µÏArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_armor_leggings_recipe"
+    },
+    {
+      "name": "¸£µÏArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_di_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.q_qi_fu": "ÅçÈ÷µÄÆí¸£Ò©Ë®",
+      "item.good_think.yuan_zi": "Ô­×Ó",
+      "item.good_think.fu_di_armor_helmet": "¸£µÏÍ·¿ø",
+      "item.good_think.si_xiang": "Ë¼Ïë¾«»ª",
+      "item.good_think.fu_di_armor_leggings": "¸£µÏ»¤ÍÈ",
+      "block.good_think.ggong": "¹¯",
+      "fluid.good_think.ggong": "¹¯",
+      "item.good_think.fu_di_axe": "¸£µÏ¸«",
+      "item.minecraft.potion.effect.q_qi_fu": "Æí¸£Ò©Ë®",
+      "item.good_think.fu_di_armor_boots": "¸£µÏÐ¬×Ó",
+      "item.good_think.xie": "Ð¼",
+      "item.good_think.fu_di_pickaxe": "¸£µÏ¸ä",
+      "item.good_think.yz": "¸£µÏÊ¯",
+      "item.good_think.fu_di_sword": "¸£µÏ½£",
+      "block.good_think.yyzk": "Ô­×Ó¿é",
+      "block.good_think.ming_xiang": "Ú¤ÏëÅè",
+      "block.good_think.yz_ore": "¸£µÏ¿óÊ¯",
+      "item.good_think.fu_di_hoe": "¸£µÏ³ú",
+      "itemGroup.tabgu_ren_de_zhi_hui_wu_pin": "¹ÅÈËµÄÖÇ»Û_ÎïÆ·",
+      "item.good_think.si_xiang_jing_hua": "Ë¼Ïë¾«»ª",
+      "item.good_think.fu_di_shovel": "¸£µÏ²ù",
+      "gamerule.zh.description": "Õâ¾ÍÊÇ¹ÅÈËµÄÖÇ»Û ",
+      "gamerule.zh": "ÖÇ»Û",
+      "item.minecraft.lingering_potion.effect.q_qi_fu": "µ¹²»ÍêµÄÆí¸£Ò©Ë®",
+      "item.good_think.w_wei_li": "Î¢Á£",
+      "item.good_think.first": "³õ¼¶¹­¼ý",
+      "item.minecraft.tipped_arrow.effect.q_qi_fu": "Æí¸£Ö®¼ý",
+      "item.good_think.chu_ji_si_xiang_hao": "³õ¼¶Ë¼Ïë¸ä",
+      "block.good_think.fang_cao": "·¼²Ý",
+      "key.good_think.xx": "Ë¼¿¼",
+      "effect.good_think.qqf": "Æí¸£",
+      "item.good_think.fu_di_armor_chestplate": "¸£µÏÐØ¼×",
+      "item.good_think.ggong_bucket": "¹¯ÕÙ»½·ûÎÄ",
+      "block.good_think.yz_block": "¸£µÏÊ¯¿é ",
+      "item.good_think.z_zhong_zi": "ÖÐ×Ó"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "good_think",
+    "modName": "¹ÅÈËµÄÖÇ»Û",
+    "version": "1.0.0",
+    "author": "86135, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.goodthink",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
